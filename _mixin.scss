@@ -1,0 +1,14 @@
+@mixin displexProperty {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+@mixin textproperty($fontSize){
+    letter-spacing: 0.3rem;
+    font-size:$fontSize;
+
+}
